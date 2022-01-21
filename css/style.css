@@ -40,6 +40,9 @@
   border-radius: 100%;
   /* color: white; */
 }
+.border:hover{
+  border: dotted red 3px;
+}
 .container {
   width: 70%;
   margin: 0 auto;
@@ -47,6 +50,7 @@
 .c-text {
   text-align: center;
 }
+
 body,
 html {
   font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -67,3 +71,5 @@ section {
 p {
   margin: 0;
 }
+
+/* https://www.codespot.org/css-hover-effects/ */

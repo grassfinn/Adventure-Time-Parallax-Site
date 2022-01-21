@@ -17,7 +17,9 @@
   <body>
     <div class="pimg1">
       <div class="ptext">
-        <span class="border">The Land of Ooo</span>
+        <span value="sound" onclick="toggleMusic()" class="border"
+          >The Land of Ooo: Click me
+        </span>
       </div>
     </div>
     <section>
@@ -90,7 +92,8 @@
     <audio
       class="song"
       src="./sound/Island Song Come Along with Me feat Ashley Eriksson.mp3"
-      autoplay
+      preload="auto"
+      type="audio/mp3"
     ></audio>
     <script src="app.js"></script>
   </body>
