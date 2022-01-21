@@ -1,0 +1,69 @@
+.pimg1 {
+  background-image: url(../images/New_Map_of_Ooo.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(../images/the_treehouse__adventure_time_by_robertejordan_ddscpc6-fullview.jpg);
+  min-height: 100%;
+}
+
+.pimg3 {
+  background-image: url(../images/Candy_Kingdom.png);
+  min-height: 100%;
+}
+
+.pimg4 {
+  background-image: url(../images/Ice_Kingdom.png);
+  min-height: 100%;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ptext {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  color: wheat;
+  font-weight: 900;
+}
+.border {
+  background-color: #666;
+  padding: 1em;
+  border-radius: 100%;
+  /* color: white; */
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.c-text {
+  text-align: center;
+}
+body,
+html {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  line-height: 1.5em;
+  height: 100%;
+  margin: 0;
+  font-size: 1.3rem;
+}
+div {
+  display: block;
+}
+section {
+  background-color: #842e2b;
+  margin: 0;
+  display: block;
+  padding: 1em;
+}
+p {
+  margin: 0;
+}
