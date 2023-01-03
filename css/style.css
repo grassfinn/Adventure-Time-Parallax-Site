@@ -40,8 +40,9 @@
   border-radius: 100%;
   /* color: white; */
 }
-.border:hover {
+.play-button:hover {
   border: dotted red 3px;
+  cursor: pointer;
 }
 .container {
   width: 70%;
